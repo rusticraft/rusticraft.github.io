@@ -38,6 +38,7 @@ export default function Human(props: {
 					{props.left ?
 						<p>Left in season {props.left}</p>
 					:	null}
+					<a href={props.youtube}>YouTube Channel</a>
 					{props.trivia ?
 						<>
 							<h2>Trivia</h2>{' '}
@@ -56,7 +57,6 @@ export default function Human(props: {
 							Latest Episode
 						</a>
 					:	null}
-					<a href={props.youtube}>YouTube Channel</a>
 				</Column>
 			</div>
 		</div>

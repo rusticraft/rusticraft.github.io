@@ -18,6 +18,11 @@ export default function Header() {
 					class={url == '/people' && 'active'}>
 					People
 				</a>
+				<a
+					href='/season1'
+					class={url == '/season1' && 'active'}>
+					Season 1
+				</a>
 			</nav>
 		</header>
 	);

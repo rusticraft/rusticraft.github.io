@@ -5,6 +5,7 @@ import './style.css';
 const Home = lazy(() => import('./pages/Home/index.js'));
 const NotFound = lazy(() => import('./pages/NotFound/index.js'));
 const People = lazy(() => import('./pages/People/index.js'));
+const Season1 = lazy(() => import('./pages/Season1/index.js'));
 
 export function App() {
 	return (
@@ -19,6 +20,10 @@ export function App() {
 					<Route
 						path='/people'
 						component={People}
+					/>
+					<Route
+						path='/season1'
+						component={Season1}
 					/>
 					<Route
 						default
