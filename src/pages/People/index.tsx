@@ -29,7 +29,7 @@ export default function People() {
 			<Human
 				skin='/heads/splitzydfg.png'
 				name='Splitzy'
-				joined={1}
+				joined={1.5}
 				latest='https://www.youtube.com/watch?v=JNTArHhOr4g'
 				youtube='https://www.youtube.com/@splitzydfg'
 			/>
