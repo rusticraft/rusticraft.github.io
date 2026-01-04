@@ -1,5 +1,6 @@
 import type { CSSProperties, ComponentChildren } from 'preact';
-import { type ReactElement, useEffect, useState } from 'preact/compat';
+import { type ReactElement } from 'preact/compat';
+import Link from '../utils/Link';
 
 export default function Human(props: {
 	skin: string;
@@ -38,7 +39,7 @@ export default function Human(props: {
 					{props.left ?
 						<p>Left in season {props.left}</p>
 					:	null}
-					<a href={props.youtube}>YouTube Channel</a>
+					<Link href={props.youtube}>YouTube Channel</Link>
 					{props.trivia ?
 						<>
 							<h2>Trivia</h2>{' '}
@@ -50,12 +51,7 @@ export default function Human(props: {
 						</>
 					:	null}
 					{props.latest ?
-						<a
-							target='_blank'
-							rel='noopener noreferrer'
-							href={props.latest}>
-							Latest Episode
-						</a>
+						<Link href={props.latest}>Latest Episode</Link>
 					:	null}
 				</Column>
 			</div>

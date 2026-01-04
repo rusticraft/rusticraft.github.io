@@ -32,6 +32,7 @@ export default function People() {
 				joined={1.5}
 				latest='https://www.youtube.com/watch?v=JNTArHhOr4g'
 				youtube='https://www.youtube.com/@splitzydfg'
+				description='the Mace legend'
 			/>
 			<Human
 				skin='/heads/blizzard.png'

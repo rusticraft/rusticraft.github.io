@@ -1,4 +1,5 @@
 import { useLocation } from 'preact-iso';
+import Link from '../utils/Link';
 import './header.css';
 
 export default function Header() {
@@ -8,21 +9,30 @@ export default function Header() {
 	return (
 		<header>
 			<nav>
-				<a
+				<Link
 					href='/'
-					class={url == '/' && 'active'}>
+					class={url == '/' && 'active'}
+					target='_self'>
 					Home
-				</a>
-				<a
+				</Link>
+				<Link
 					href='/people'
-					class={url == '/people' && 'active'}>
+					class={url == '/people' && 'active'}
+					target='_self'>
 					People
-				</a>
-				<a
+				</Link>
+				<Link
 					href='/season1'
-					class={url == '/season1' && 'active'}>
+					class={url == '/season1' && 'active'}
+					target='_self'>
 					Season 1
-				</a>
+				</Link>
+				<Link
+					href='/season1.5'
+					class={url == '/season1.5' && 'active'}
+					target='_self'>
+					Season 1.5
+				</Link>
 			</nav>
 		</header>
 	);

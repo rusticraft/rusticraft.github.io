@@ -8,7 +8,7 @@ export default function Home() {
 					alignItems: 'center',
 				}}>
 				<img
-					src='/rusticraft-logo.png'
+					src='/images/rusticraft-logo.png'
 					alt='RUSTICRAFT'
 					style={{ width: '40vw', display: 'flex' }}
 				/>
