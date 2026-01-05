@@ -1,8 +1,8 @@
 export default function NotFound() {
 	return (
 		<section>
-			<h1>404: Not Found</h1>
-			<p>Not FOund</p>
+			<h1>I don't know bro...</h1>
+			<p>This page could not be found.</p>
 		</section>
 	);
 }

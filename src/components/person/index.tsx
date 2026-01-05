@@ -6,10 +6,10 @@ export default function Human(props: {
 	skin: string;
 	name: string;
 	description?: string;
-	joined: number;
-	latest?: string;
-	left?: number;
-	youtube: string;
+	firstSeason: number;
+	latestEpisode?: string;
+	latestSeason?: number;
+	youtubeChannelUrl: string;
 	trivia?: string[];
 }) {
 	return (
@@ -35,11 +35,8 @@ export default function Human(props: {
 					<p>{props.description}</p>
 				</Column>
 				<Column>
-					<p>Joined in season {props.joined}</p>
-					{props.left ?
-						<p>Left in season {props.left}</p>
-					:	null}
-					<Link href={props.youtube}>YouTube Channel</Link>
+					<p>Season{props.latestSeason ? "s": null} {props.firstSeason} {props.latestSeason ? `to ${props.latestSeason}`: null}</p>
+					<Link href={props.youtubeChannelUrl}>YouTube Channel</Link>
 					{props.trivia ?
 						<>
 							<h2>Trivia</h2>{' '}
@@ -50,8 +47,8 @@ export default function Human(props: {
 							</ul>
 						</>
 					:	null}
-					{props.latest ?
-						<Link href={props.latest}>Latest Episode</Link>
+					{props.latestEpisode ?
+						<Link href={props.latestEpisode}>Latest Episode</Link>
 					:	null}
 				</Column>
 			</div>
