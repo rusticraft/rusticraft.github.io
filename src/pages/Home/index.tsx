@@ -1,3 +1,5 @@
+import Logo from "@/assets/images/rusticraft-logo.png"
+
 export default function Home() {
 	return (
 		<div style={{ width: '100%' }}>
@@ -8,7 +10,7 @@ export default function Home() {
 					alignItems: 'center',
 				}}>
 				<img
-					src='/images/rusticraft-logo.png'
+					src={Logo}
 					alt='RUSTICRAFT'
 					style={{ width: '40vw', display: 'flex' }}
 				/>

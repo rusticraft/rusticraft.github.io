@@ -1,5 +1,6 @@
 import Link from '@/components/utils/Link';
 import '@/styles/table.css';
+import FreshStart from "@/assets/images/fresh-start.png"
 
 export default function Season1() {
 	return (
@@ -11,7 +12,7 @@ export default function Season1() {
 					alignItems: 'center',
 				}}>
 				<img
-					src='/images/fresh-start.png'
+					src={FreshStart}
 					alt='RUSTICRAFT: FRESH START'
 					style={{ width: '30vw', display: 'flex' }}
 				/>

@@ -1,4 +1,16 @@
 import Human from '@/components/person';
+import DuckManHead from "@/assets/heads/duckman.png"
+import Proper from "@/assets/heads/proper.png"
+import DrCheff from "@/assets/heads/cheff.png"
+import Rain from "@/assets/heads/rain.png"
+import Radison from "@/assets/heads/radison.png"
+import Random from "@/assets/heads/random.png"
+import Flame from "@/assets/heads/flame.png"
+import NoCakez from "@/assets/heads/nocakez.png"
+import Blizzard from "@/assets/heads/blizzard.png"
+import Splitzy from "@/assets/heads/splitzydfg.png"
+import Meerpup from "@/assets/heads/meerpup1.png"
+import BoxyPlayz from "@/assets/heads/boxyplayz.png"
 
 export default function People() {
 	return (
@@ -10,7 +22,7 @@ export default function People() {
 				gap: '16px',
 			}}>
 			<Human
-				skin='/heads/boxyplayz.png'
+				skin={BoxyPlayz}
 				name='BoxyPlayz'
 				description='Builder of the site! :D'
 				joined={1}
@@ -19,7 +31,7 @@ export default function People() {
 				trivia={['Web Designer']}
 			/>
 			<Human
-				skin='/heads/meerpup1.png'
+				skin={Meerpup}
 				name='Meerpup1'
 				description='Server Owner'
 				joined={1}
@@ -27,7 +39,7 @@ export default function People() {
 				youtube='https://www.youtube.com/@meerpup1'
 			/>
 			<Human
-				skin='/heads/splitzydfg.png'
+				skin={Splitzy}
 				name='Splitzy'
 				joined={1.5}
 				latest='https://www.youtube.com/watch?v=JNTArHhOr4g'
@@ -35,14 +47,14 @@ export default function People() {
 				description='the Mace legend'
 			/>
 			<Human
-				skin='/heads/blizzard.png'
+				skin={Blizzard}
 				name='Blizzard'
 				joined={1}
 				latest='https://www.youtube.com/watch?v=oBpv8v3smKY'
 				youtube='https://www.youtube.com/@Blizzard_Animate'
 			/>
 			<Human
-				skin='/heads/nocakez.png'
+				skin={NoCakez}
 				name='NoCakez'
 				joined={1}
 				youtube='https://www.youtube.com/@TheAlienYouTuber'
@@ -50,46 +62,46 @@ export default function People() {
 				left={1.5}
 			/>
 			<Human
-				skin='/heads/flame.png'
+				skin={Flame}
 				name='FlameRV'
 				joined={1}
 				youtube='https://www.youtube.com/@FlameRV2008'
 				latest='https://www.youtube.com/watch?v=xyONh2jlbgs'
 			/>
 			<Human
-				skin='/heads/random.png'
+				skin={Random}
 				name='Random'
 				joined={1}
 				youtube='https://www.youtube.com/@a-random-show'
 				latest='https://www.youtube.com/watch?v=WPvvAHm4izA'
 			/>
 			<Human
-				skin='/heads/radison.png'
+				skin={Radison}
 				name='Radison'
 				joined={1}
 				youtube='https://www.youtube.com/@radistongamer'
 			/>
 			<Human
-				skin='/heads/proper.png'
+				skin={Proper}
 				name='Proper Gamer'
 				joined={1}
 				youtube='https://www.youtube.com/@Proper_Gamer13'
 			/>
 			<Human
-				skin='/heads/duckman.png'
+				skin={DuckManHead}
 				name='The Duck Man'
 				joined={1}
 				youtube='https://www.youtube.com/@the_duckman1'
 				latest='https://www.youtube.com/watch?v=EfplqjWUPwo'
 			/>
 			<Human
-				skin='/heads/cheff.png'
+				skin={DrCheff}
 				name='DrCheff'
 				joined={1}
 				youtube='https://www.youtube.com/@DrCheff'
 			/>
 			<Human
-				skin='/heads/rain.png'
+				skin={Rain}
 				name='RainNova'
 				joined={1}
 				youtube='https://www.youtube.com/@rainnova-z5i'
