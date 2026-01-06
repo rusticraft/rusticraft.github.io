@@ -23,7 +23,7 @@ export default function People() {
 				gap: '16px',
 			}}>
 			<Human
-				skin={BoxyPlayz}
+				head={BoxyPlayz}
 				name='BoxyPlayz'
 				description='Builder of the site! :D'
 				firstSeason={1}
@@ -33,7 +33,7 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Meerpup}
+				head={Meerpup}
 				name='Meerpup1'
 				description='Server Owner'
 				firstSeason={1}
@@ -42,7 +42,7 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Splitzy}
+				head={Splitzy}
 				name='Splitzy'
 				firstSeason={1.5}
 				latestEpisode='https://www.youtube.com/watch?v=JNTArHhOr4g'
@@ -50,7 +50,7 @@ export default function People() {
 				description='the Mace legend'
 			/>
 			<Human
-				skin={Blizzard}
+				head={Blizzard}
 				name='Blizzard'
 				firstSeason={1}
 				latestEpisode='https://www.youtube.com/watch?v=oBpv8v3smKY'
@@ -58,7 +58,7 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={NoCakez}
+				head={NoCakez}
 				name='NoCakez'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@TheAlienYouTuber'
@@ -66,14 +66,15 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Flame}
+				head={Flame}
 				name='FlameRV'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@FlameRV2008'
 				latestEpisode='https://www.youtube.com/watch?v=xyONh2jlbgs'
+				latestSeason={1.5}
 			/>
 			<Human
-				skin={Random}
+				head={Random}
 				name='Random'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@a-random-show'
@@ -81,21 +82,21 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Radison}
+				head={Radison}
 				name='Radison'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@radistongamer'
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Proper}
+				head={Proper}
 				name='Proper Gamer'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@Proper_Gamer13'
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={DuckManHead}
+				head={DuckManHead}
 				name='The Duck Man'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@the_duckman1'
@@ -103,21 +104,21 @@ export default function People() {
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={DrCheff}
+				head={DrCheff}
 				name='DrCheff'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@DrCheff'
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={Rain}
+				head={Rain}
 				name='RainNova'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@rainnova-z5i'
 				latestSeason={1.5}
 			/>
 			<Human
-				skin={BlackJotunn}
+				head={BlackJotunn}
 				name='Black Jotunn'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@blackjotunn'

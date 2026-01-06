@@ -3,7 +3,7 @@ import { type ReactElement } from 'preact/compat';
 import Link from '../utils/Link';
 
 export default function Human(props: {
-	skin: string;
+	head: string;
 	name: string;
 	description?: string;
 	firstSeason: number;
@@ -26,7 +26,7 @@ export default function Human(props: {
 				<Column>
 					<h1>{props.name}</h1>
 					<img
-						src={props.skin}
+						src={props.head}
 						alt={props.name}
 						width={80}
 						height={80}
