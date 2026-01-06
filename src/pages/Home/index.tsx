@@ -1,4 +1,4 @@
-import Logo from "@/assets/images/rusticraft-logo.png"
+import Logo from '@/assets/images/rusticraft-logo.png';
 
 export default function Home() {
 	return (

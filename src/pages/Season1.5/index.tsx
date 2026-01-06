@@ -1,6 +1,6 @@
+import FreshStart from '@/assets/images/fresh-start.png';
 import Link from '@/components/utils/Link';
 import '@/styles/table.css';
-import FreshStart from "@/assets/images/fresh-start.png"
 
 export default function Season1() {
 	return (

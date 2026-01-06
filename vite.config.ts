@@ -9,7 +9,12 @@ export default defineConfig({
 			prerender: {
 				enabled: true,
 				renderTarget: '#app',
-				additionalPrerenderRoutes: ['/404', '/people', "/season1", "/season1.5"],
+				additionalPrerenderRoutes: [
+					'/404',
+					'/people',
+					'/season1',
+					'/season1.5',
+				],
 				previewMiddlewareEnabled: true,
 				previewMiddlewareFallback: '/404',
 			},

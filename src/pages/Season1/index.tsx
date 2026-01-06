@@ -1,6 +1,6 @@
+import NewBeginnings from '@/assets/images/new-beginnings.png';
 import Link from '@/components/utils/Link';
 import '@/styles/table.css';
-import NewBeginnings from "@/assets/images/new-beginnings.png"
 
 export default function Season1() {
 	return (

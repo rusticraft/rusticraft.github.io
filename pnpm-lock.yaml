@@ -17,9 +17,6 @@ importers:
       preact-render-to-string:
         specifier: ^6.6.5
         version: 6.6.5(preact@10.28.1)
-      react-skinview3d:
-        specifier: ^7.0.0
-        version: 7.0.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
     devDependencies:
       '@boxyplayz/prettier-config':
         specifier: ^1.0.0
@@ -580,15 +577,6 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/stats.js@0.17.4':
-    resolution: {integrity: sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==}
-
-  '@types/three@0.156.0':
-    resolution: {integrity: sha512-733bXDSRdlrxqOmQuOmfC1UBRuJ2pREPk8sWnx9MtIJEVDQMx8U0NQO5MVVaOrjzDPyLI+cFPim2X/ss9v0+LQ==}
-
-  '@types/webxr@0.5.24':
-    resolution: {integrity: sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==}
-
   '@typescript-eslint/eslint-plugin@8.52.0':
     resolution: {integrity: sha512-okqtOgqu2qmZJ5iN4TWlgfF171dZmx2FzdOv2K/ixL2LZWDStL8+JgQerI2sa8eAEfoydG9+0V96m7V+P8yE1Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -837,9 +825,6 @@ packages:
       picomatch:
         optional: true
 
-  fflate@0.6.10:
-    resolution: {integrity: sha512-IQrh3lEPM93wVCEczc9SaAOvkmcoQn/G8Bo1e8ZPlY3X3bnAxWaBdvTdvM1hP62iZp0BXWDy4vTAy4fF0+Dlpg==}
-
   file-entry-cache@8.0.0:
     resolution: {integrity: sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==}
     engines: {node: '>=16.0.0'}
@@ -973,9 +958,6 @@ packages:
   mdn-data@2.23.0:
     resolution: {integrity: sha512-786vq1+4079JSeu2XdcDjrhi/Ry7BWtjDl9WtGPWLiIHb2T66GvIVflZTBoSNZ5JqTtJGYEVMuFA/lbQlMOyDQ==}
 
-  meshoptimizer@0.18.1:
-    resolution: {integrity: sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==}
-
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
@@ -1075,22 +1057,6 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  react-dom@19.2.3:
-    resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
-    peerDependencies:
-      react: ^19.2.3
-
-  react-skinview3d@7.0.0:
-    resolution: {integrity: sha512-H7p/lvZrnySPmyKyi19fMwLmCZQX6VzpRceQJril/qg3ZI5z8qEF1xW7Y2r/l87PxtakXquVwjoDjRFStQs0iA==}
-    engines: {node: '>=22'}
-    peerDependencies:
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
-
-  react@19.2.3:
-    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
-    engines: {node: '>=0.10.0'}
-
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
@@ -1099,9 +1065,6 @@ packages:
     resolution: {integrity: sha512-wDv/Ht1BNHB4upNbK74s9usvl7hObDnvVzknxqY/E/O3X6rW1U1rV1aENEfJ54eFZDTNo7zv1f5N4edCluH7+A==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
-
-  scheduler@0.27.0:
-    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -1123,12 +1086,6 @@ packages:
   simple-code-frame@1.3.0:
     resolution: {integrity: sha512-MB4pQmETUBlNs62BBeRjIFGeuy/x6gGKh7+eRUemn1rCFhqo7K+4slPqsyizCbcbYLnaYqaoZ2FWsZ/jN06D8w==}
 
-  skinview-utils@0.7.1:
-    resolution: {integrity: sha512-4eLrMqR526ehlZbsd8SuZ/CHpS9GiH0xUMoV+PYlJVi95ZFz5HJu7Spt5XYa72DRS7wgt5qquvHZf0XZJgmu9Q==}
-
-  skinview3d@3.4.1:
-    resolution: {integrity: sha512-WVN1selfDSAoQB7msLs3ueJjW/pge3nsmbqxJeXPnN/qIJ1GJKpMZO8mavSvMojaMrmpSgOJWfYUkK9B34ts2g==}
-
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -1148,9 +1105,6 @@ packages:
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
-
-  three@0.156.1:
-    resolution: {integrity: sha512-kP7H0FK9d/k6t/XvQ9FO6i+QrePoDcNhwl0I02+wmUJRNSLCUIDMcfObnzQvxb37/0Uc9TDT0T1HgsRRrO6SYQ==}
 
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
@@ -1698,17 +1652,6 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/stats.js@0.17.4': {}
-
-  '@types/three@0.156.0':
-    dependencies:
-      '@types/stats.js': 0.17.4
-      '@types/webxr': 0.5.24
-      fflate: 0.6.10
-      meshoptimizer: 0.18.1
-
-  '@types/webxr@0.5.24': {}
-
   '@typescript-eslint/eslint-plugin@8.52.0(@typescript-eslint/parser@8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
@@ -2022,8 +1965,6 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.3
 
-  fflate@0.6.10: {}
-
   file-entry-cache@8.0.0:
     dependencies:
       flat-cache: 4.0.1
@@ -2125,8 +2066,6 @@ snapshots:
 
   mdn-data@2.23.0: {}
 
-  meshoptimizer@0.18.1: {}
-
   minimatch@3.1.2:
     dependencies:
       brace-expansion: 1.1.12
@@ -2212,19 +2151,6 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.3(react@19.2.3):
-    dependencies:
-      react: 19.2.3
-      scheduler: 0.27.0
-
-  react-skinview3d@7.0.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
-    dependencies:
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
-      skinview3d: 3.4.1
-
-  react@19.2.3: {}
-
   resolve-from@4.0.0: {}
 
   rollup@4.55.1:
@@ -2258,8 +2184,6 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.55.1
       fsevents: 2.3.3
 
-  scheduler@0.27.0: {}
-
   semver@6.3.1: {}
 
   semver@7.7.3: {}
@@ -2274,14 +2198,6 @@ snapshots:
     dependencies:
       kolorist: 1.8.0
 
-  skinview-utils@0.7.1: {}
-
-  skinview3d@3.4.1:
-    dependencies:
-      '@types/three': 0.156.0
-      skinview-utils: 0.7.1
-      three: 0.156.1
-
   source-map-js@1.2.1: {}
 
   source-map@0.7.6: {}
@@ -2293,8 +2209,6 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
-
-  three@0.156.1: {}
 
   tinyglobby@0.2.15:
     dependencies:

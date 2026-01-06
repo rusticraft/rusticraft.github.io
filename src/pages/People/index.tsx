@@ -1,17 +1,17 @@
+import BlackJotunn from '@/assets/heads/blackjotunn.png';
+import Blizzard from '@/assets/heads/blizzard.png';
+import BoxyPlayz from '@/assets/heads/boxyplayz.png';
+import DrCheff from '@/assets/heads/cheff.png';
+import DuckManHead from '@/assets/heads/duckman.png';
+import Flame from '@/assets/heads/flame.png';
+import Meerpup from '@/assets/heads/meerpup1.png';
+import NoCakez from '@/assets/heads/nocakez.png';
+import Proper from '@/assets/heads/proper.png';
+import Radison from '@/assets/heads/radison.png';
+import Rain from '@/assets/heads/rain.png';
+import Random from '@/assets/heads/random.png';
+import Splitzy from '@/assets/heads/splitzydfg.png';
 import Human from '@/components/person';
-import DuckManHead from "@/assets/heads/duckman.png"
-import Proper from "@/assets/heads/proper.png"
-import DrCheff from "@/assets/heads/cheff.png"
-import Rain from "@/assets/heads/rain.png"
-import Radison from "@/assets/heads/radison.png"
-import Random from "@/assets/heads/random.png"
-import Flame from "@/assets/heads/flame.png"
-import NoCakez from "@/assets/heads/nocakez.png"
-import Blizzard from "@/assets/heads/blizzard.png"
-import Splitzy from "@/assets/heads/splitzydfg.png"
-import Meerpup from "@/assets/heads/meerpup1.png"
-import BoxyPlayz from "@/assets/heads/boxyplayz.png"
-import BlackJotunn from "@/assets/heads/blackjotunn.png"
 
 export default function People() {
 	return (

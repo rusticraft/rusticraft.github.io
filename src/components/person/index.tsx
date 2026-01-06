@@ -35,7 +35,13 @@ export default function Human(props: {
 					<p>{props.description}</p>
 				</Column>
 				<Column>
-					<p>Season{props.latestSeason ? "s": null} {props.firstSeason} {props.latestSeason ? `to ${props.latestSeason}`: null}</p>
+					<p>
+						Season{props.latestSeason ? 's' : null}{' '}
+						{props.firstSeason}{' '}
+						{props.latestSeason ?
+							`to ${props.latestSeason}`
+						:	null}
+					</p>
 					<Link href={props.youtubeChannelUrl}>YouTube Channel</Link>
 					{props.trivia ?
 						<>
@@ -48,7 +54,9 @@ export default function Human(props: {
 						</>
 					:	null}
 					{props.latestEpisode ?
-						<Link href={props.latestEpisode}>Latest Episode</Link>
+						<Link href={props.latestEpisode}>
+							Latest Episode
+						</Link>
 					:	null}
 				</Column>
 			</div>
