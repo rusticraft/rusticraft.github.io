@@ -4,7 +4,7 @@ import { useLocalStorage } from '@/hooks/useLocalStorage';
 import '@/styles/table.css';
 import { getTranslation, type langs } from '@/translations';
 
-export default function Season1() {
+export default function Season1_5() {
 	const [lang] = useLocalStorage<langs>('lang', 'EN');
 	return (
 		<div style={{ width: '100%' }}>
@@ -139,6 +139,15 @@ export default function Season1() {
 						<td>BoxyPlayz</td>
 						<td>January 3, 2025</td>
 					</tr>
+					<tr>
+						<td>
+							<Link href='https://www.youtube.com/watch?v=TTnjzAXMM1E'>
+								Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1 
+							</Link>
+						</td>
+						<td>BoxyPlayz</td>
+						<td>January 6, 2025</td>
+					</tr>
 				</tbody>
 			</table>
 			<h1 id='meerpup1'>Meerpup1's Video</h1>
@@ -211,6 +220,14 @@ export default function Season1() {
 							</Link>
 						</td>
 						<td>January 3, 2025</td>
+					</tr>
+					<tr>
+						<td>
+							<Link href='https://www.youtube.com/watch?v=TTnjzAXMM1E'>
+								Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1 
+							</Link>
+						</td>
+						<td>January 6, 2025</td>
 					</tr>
 				</tbody>
 			</table>
