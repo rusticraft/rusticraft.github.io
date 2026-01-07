@@ -27,7 +27,7 @@ export default function People() {
 				name='BoxyPlayz'
 				description='Builder of the site! :D'
 				firstSeason={1}
-				latestEpisode='https://www.youtube.com/watch?v=TTnjzAXMM1E'
+				latestEpisode='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'
 				youtubeChannelUrl='https://www.youtube.com/@BoxyPlayz0'
 				trivia={['Web Designer']}
 				latestSeason={1.5}
