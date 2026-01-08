@@ -8,6 +8,7 @@ export default function Human(props: {
 	description?: string;
 	firstSeason: number;
 	latestEpisode?: string;
+	latestEpisodeTitle?: string;
 	latestSeason?: number;
 	youtubeChannelUrl: string;
 	trivia?: string[];
@@ -54,7 +55,7 @@ export default function Human(props: {
 						</>
 					:	null}
 					{props.latestEpisode ?
-						<Link href={props.latestEpisode}>
+						<Link title={props.latestEpisodeTitle} href={props.latestEpisode}>
 							Latest Episode
 						</Link>
 					:	null}

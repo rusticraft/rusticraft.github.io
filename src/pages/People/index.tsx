@@ -29,6 +29,7 @@ export default function People() {
 				firstSeason={1}
 				latestEpisode='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'
 				youtubeChannelUrl='https://www.youtube.com/@BoxyPlayz0'
+				latestEpisodeTitle='Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1'
 				trivia={['Web Designer']}
 				latestSeason={1.5}
 			/>
@@ -38,6 +39,7 @@ export default function People() {
 				description='Server Owner'
 				firstSeason={1}
 				latestEpisode='https://www.youtube.com/watch?v=LQlR_aPHHBs'
+				latestEpisodeTitle='RustiCraft Season 1.5, Episode 1 – Building My Starter Base!'
 				youtubeChannelUrl='https://www.youtube.com/@meerpup1'
 				latestSeason={1.5}
 			/>
@@ -46,6 +48,7 @@ export default function People() {
 				name='Splitzy'
 				firstSeason={1.5}
 				latestEpisode='https://www.youtube.com/watch?v=JNTArHhOr4g'
+				latestEpisodeTitle='JUst another Laggy day on the RustiCraft SMP :D'
 				youtubeChannelUrl='https://www.youtube.com/@splitzydfg'
 				description='the Mace legend'
 			/>
@@ -55,6 +58,7 @@ export default function People() {
 				firstSeason={1}
 				latestEpisode='https://www.youtube.com/watch?v=oBpv8v3smKY'
 				youtubeChannelUrl='https://www.youtube.com/@Blizzard_Animate'
+				latestEpisodeTitle='Live🔴 Rusticraft SMP End Fight. Come Chill'
 				latestSeason={1.5}
 			/>
 			<Human
@@ -71,6 +75,7 @@ export default function People() {
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@FlameRV2008'
 				latestEpisode='https://www.youtube.com/watch?v=xyONh2jlbgs'
+				latestEpisodeTitle='Home Sweet Home | RustiCraft Ep 1| Minecraft'
 				latestSeason={1.5}
 			/>
 			<Human
@@ -79,6 +84,7 @@ export default function People() {
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@a-random-show'
 				latestEpisode='https://www.youtube.com/watch?v=WPvvAHm4izA'
+				latestEpisodeTitle='RustiCraft SMP ep1: Imprisoning some piligers :D'
 				latestSeason={1.5}
 			/>
 			<Human
@@ -101,6 +107,7 @@ export default function People() {
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@the_duckman1'
 				latestEpisode='https://www.youtube.com/watch?v=EfplqjWUPwo'
+				latestEpisodeTitle='END FIGHT - TRAILER (Rusticraft season 1.5)'
 				latestSeason={1.5}
 			/>
 			<Human
@@ -122,6 +129,8 @@ export default function People() {
 				name='Black Jotunn'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@blackjotunn'
+				latestEpisode='https://www.youtube.com/watch?v=8QISvJ6IS-4'
+				latestEpisodeTitle='eerste dag op rusticraft meteen end fight'
 			/>
 		</div>
 	);

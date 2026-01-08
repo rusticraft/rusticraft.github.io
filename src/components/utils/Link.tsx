@@ -5,6 +5,7 @@ export default function Link(props: AnchorHTMLAttributes) {
 		<a
 			target={props.target || '_blank'}
 			rel='noopener noreferrer'
+			title={props.title}
 			href={props.href}>
 			{props.children}
 		</a>
