@@ -55,7 +55,9 @@ export default function Human(props: {
 						</>
 					:	null}
 					{props.latestEpisode ?
-						<Link title={props.latestEpisodeTitle} href={props.latestEpisode}>
+						<Link
+							title={props.latestEpisodeTitle}
+							href={props.latestEpisode}>
 							Latest Episode
 						</Link>
 					:	null}

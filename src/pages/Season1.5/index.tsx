@@ -122,9 +122,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://www.youtube.com/watch?v=sVw0pRoZBAk'>
-								Rusticraft Season 1.5 (Technically)
-								Episode 1: Snow Farm and (not)
-								Carpet Duping
+								Snow Farm | Rusticraft Season 1.5
+								Episode 1
 							</Link>
 						</td>
 						<td>BoxyPlayz</td>
@@ -133,7 +132,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://www.youtube.com/watch?v=TTnjzAXMM1E'>
-								Rusticraft Season 1.5 Episode 2
+								Carpet Duping! | Rusticraft Season
+								1.5 Episode 2
 							</Link>
 						</td>
 						<td>BoxyPlayz</td>
@@ -142,11 +142,22 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'>
-								Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1 
+								Guardian Farm Part 1 | Rusticraft
+								Season 1.5 Episode 3
 							</Link>
 						</td>
 						<td>BoxyPlayz</td>
 						<td>January 6, 2025</td>
+					</tr>
+					<tr>
+						<td>
+							<Link href='https://www.youtube.com/post/UgkxtZgOpGAkO5DYfqcOLFRzcFPGi61w5_jS'>
+								Guardian Farm Part 2 | Rusticraft
+								Season 1.5 Episode 4
+							</Link>
+						</td>
+						<td>BoxyPlayz</td>
+						<td>January 11, 2025</td>
 					</tr>
 				</tbody>
 			</table>
@@ -206,9 +217,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://www.youtube.com/watch?v=sVw0pRoZBAk'>
-								Rusticraft Season 1.5 (Technically)
-								Episode 1: Snow Farm and (not)
-								Carpet Duping
+								Snow Farm | Rusticraft Season 1.5
+								Episode 1
 							</Link>
 						</td>
 						<td>December 31, 2025</td>
@@ -216,7 +226,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://www.youtube.com/watch?v=TTnjzAXMM1E'>
-								Rusticraft Season 1.5 Episode 2
+								Carpet Duping! | Rusticraft Season
+								1.5 Episode 2
 							</Link>
 						</td>
 						<td>January 3, 2025</td>
@@ -224,10 +235,20 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'>
-								Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1 
+								Guardian Farm Part 1 | Rusticraft
+								Season 1.5 Episode 3
 							</Link>
 						</td>
 						<td>January 6, 2025</td>
+					</tr>
+					<tr>
+						<td>
+							<Link href='https://www.youtube.com/post/UgkxtZgOpGAkO5DYfqcOLFRzcFPGi61w5_jS'>
+								Guardian Farm Part 2 | Rusticraft
+								Season 1.5 Episode 4
+							</Link>
+						</td>
+						<td>January 11, 2025</td>
 					</tr>
 				</tbody>
 			</table>
