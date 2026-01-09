@@ -1,9 +1,15 @@
 export type langs = 'EN' /* | 'RO' */;
 export type Dictionary = Record<langs, Record<keys, string>>;
-export type keys = 'HomeButton' | 'People' | 'Season' | 'UploadOrder';
+export type keys = 'HomeButton' | 'People' | 'Season' | 'UploadOrder' | 'JoinServer';
 
 export const defaultDictionary: Dictionary = {
-	EN: { HomeButton: 'Home', People: 'People', Season: 'Season', UploadOrder: 'Upload Order' },
+	EN: {
+		HomeButton: 'Home',
+		People: 'People',
+		Season: 'Season',
+		UploadOrder: 'Upload Order',
+		JoinServer: 'Join Server Here',
+	},
 };
 
 export function getTranslation(
