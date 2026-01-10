@@ -151,7 +151,7 @@ export default function Season1_5() {
 					</tr>
 					<tr>
 						<td>
-							<Link href='https://www.youtube.com/post/UgkxtZgOpGAkO5DYfqcOLFRzcFPGi61w5_jS'>
+							<Link href='https://youtu.be/KwMoB_ZA2tg?si=xpVzS1fqw0DN8uYv'>
 								Guardian Farm Part 2 | Rusticraft
 								Season 1.5 Episode 4
 							</Link>
@@ -243,7 +243,7 @@ export default function Season1_5() {
 					</tr>
 					<tr>
 						<td>
-							<Link href='https://www.youtube.com/post/UgkxtZgOpGAkO5DYfqcOLFRzcFPGi61w5_jS'>
+							<Link href='https://youtu.be/KwMoB_ZA2tg?si=xpVzS1fqw0DN8uYv'>
 								Guardian Farm Part 2 | Rusticraft
 								Season 1.5 Episode 4
 							</Link>
