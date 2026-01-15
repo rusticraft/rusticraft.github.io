@@ -50,7 +50,7 @@ export default function People() {
 				latestEpisode='https://www.youtube.com/watch?v=JNTArHhOr4g'
 				latestEpisodeTitle='JUst another Laggy day on the RustiCraft SMP :D'
 				youtubeChannelUrl='https://www.youtube.com/@splitzydfg'
-				description='the Mace legend'
+				description='The Prankster'
 			/>
 			<Human
 				head={Blizzard}
