@@ -142,8 +142,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'>
-								Guardian Farm Part 1 | Rusticraft
-								Season 1.5 Episode 3
+								Bamboo | Guardian Farm Part 1 |
+								Rusticraft Season 1.5 Episode 3
 							</Link>
 						</td>
 						<td>BoxyPlayz</td>
@@ -152,8 +152,9 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KwMoB_ZA2tg?si=xpVzS1fqw0DN8uYv'>
-								Guardian Farm Part 2 | Rusticraft
-								Season 1.5 Episode 4
+								Actual Materials | Guardian Farm
+								Part 2 | Rusticraft Season 1.5
+								Episode 4
 							</Link>
 						</td>
 						<td>BoxyPlayz</td>
