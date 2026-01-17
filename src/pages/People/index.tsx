@@ -27,9 +27,9 @@ export default function People() {
 				name='BoxyPlayz'
 				description='Builder of the site! :D'
 				firstSeason={1}
-				latestEpisode='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'
+				latestEpisode='https://youtu.be/KGIM7Ag96Vo?si=VPwhUJZu3iLVhgfa'
 				youtubeChannelUrl='https://www.youtube.com/@BoxyPlayz0'
-				latestEpisodeTitle='Rusticraft Season 1.5 Episode 3: Guardian Farm Part 1'
+				latestEpisodeTitle=' The Farm | Guardian Farm Part 3 | Rusticraft Season 1.5 Episode 5'
 				trivia={['Web Designer']}
 				latestSeason={1.5}
 			/>

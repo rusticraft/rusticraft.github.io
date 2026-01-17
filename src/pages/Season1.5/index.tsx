@@ -159,6 +159,16 @@ export default function Season1_5() {
 						<td>BoxyPlayz</td>
 						<td>January 11, 2025</td>
 					</tr>
+					<tr>
+						<td>
+							<Link href='https://youtu.be/KGIM7Ag96Vo?si=a2goilWHEGZxnvD6'>
+								The Farm | Guardian Farm Part 3 |
+								Rusticraft Season 1.5 Episode 5
+							</Link>
+						</td>
+						<td>BoxyPlayz</td>
+						<td>January 17, 2025</td>
+					</tr>
 				</tbody>
 			</table>
 			<h1 id='meerpup1'>Meerpup1's Video</h1>
@@ -235,8 +245,8 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KHg8Na5Dix8?si=HscvIorEO649AgJx'>
-								Guardian Farm Part 1 | Rusticraft
-								Season 1.5 Episode 3
+								Bamboo | Guardian Farm Part 1 |
+								Rusticraft Season 1.5 Episode 3
 							</Link>
 						</td>
 						<td>January 6, 2025</td>
@@ -244,11 +254,21 @@ export default function Season1_5() {
 					<tr>
 						<td>
 							<Link href='https://youtu.be/KwMoB_ZA2tg?si=xpVzS1fqw0DN8uYv'>
-								Guardian Farm Part 2 | Rusticraft
-								Season 1.5 Episode 4
+								Actual Materials | Guardian Farm
+								Part 2 | Rusticraft Season 1.5
+								Episode 4
 							</Link>
 						</td>
 						<td>January 11, 2025</td>
+					</tr>
+					<tr>
+						<td>
+							<Link href='https://youtu.be/KGIM7Ag96Vo?si=a2goilWHEGZxnvD6'>
+								The Farm | Guardian Farm Part 3 |
+								Rusticraft Season 1.5 Episode 5
+							</Link>
+						</td>
+						<td>January 17, 2025</td>
 					</tr>
 				</tbody>
 			</table>
