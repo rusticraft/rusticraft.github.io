@@ -12,6 +12,8 @@ import Rain from '@/assets/heads/rain.png';
 import Random from '@/assets/heads/random.png';
 import Splitzy from '@/assets/heads/splitzydfg.png';
 import Human from '@/components/person';
+import Mask from '@/assets/heads/mask.png'
+import Frankie from '@/assets/heads/frankie.png'
 
 export default function People() {
 	return (
@@ -131,6 +133,18 @@ export default function People() {
 				youtubeChannelUrl='https://www.youtube.com/@blackjotunn'
 				latestEpisode='https://www.youtube.com/watch?v=8QISvJ6IS-4'
 				latestEpisodeTitle='eerste dag op rusticraft meteen end fight'
+			/>
+			<Human
+				head={Mask}
+				name='Mask'
+				firstSeason={1.5}
+				youtubeChannelUrl='https://www.youtube.com/@Maskedmcyt'
+			/>
+			<Human
+				head={Frankie}
+				name='Se7zz'
+				firstSeason={1.5}
+				youtubeChannelUrl='https://www.youtube.com/@Se7zz'
 			/>
 		</div>
 	);
