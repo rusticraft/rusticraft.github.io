@@ -40,8 +40,8 @@ export default function People() {
 				name='Meerpup1'
 				description='Server Owner'
 				firstSeason={1}
-				latestEpisode='https://www.youtube.com/watch?v=LQlR_aPHHBs'
-				latestEpisodeTitle='RustiCraft Season 1.5, Episode 1 – Building My Starter Base!'
+				latestEpisode='https://www.youtube.com/watch?v=In3n9gUExZg'
+				latestEpisodeTitle='RustiCraft Season 1.5, Episode 2 – Spawn Build!'
 				youtubeChannelUrl='https://www.youtube.com/@meerpup1'
 				latestSeason={1.5}
 			/>
@@ -68,8 +68,8 @@ export default function People() {
 				name='NoCakez'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@TheAlienYouTuber'
-				trivia={['NoCakez is leaving temporarily until season 2.']}
 				latestSeason={1.5}
+				left
 			/>
 			<Human
 				head={Flame}
@@ -118,6 +118,7 @@ export default function People() {
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@DrCheff'
 				latestSeason={1.5}
+				left
 			/>
 			<Human
 				head={Rain}
@@ -133,6 +134,7 @@ export default function People() {
 				youtubeChannelUrl='https://www.youtube.com/@blackjotunn'
 				latestEpisode='https://www.youtube.com/watch?v=8QISvJ6IS-4'
 				latestEpisodeTitle='eerste dag op rusticraft meteen end fight'
+				left
 			/>
 			<Human
 				head={Mask}

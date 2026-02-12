@@ -12,6 +12,7 @@ export default function Human(props: {
 	latestSeason?: number;
 	youtubeChannelUrl: string;
 	trivia?: string[];
+	left?: boolean;
 }) {
 	return (
 		<div
@@ -26,6 +27,7 @@ export default function Human(props: {
 			<div style={{ display: 'flex', flexDirection: 'row', padding: '24px' }}>
 				<Column>
 					<h1>{props.name}</h1>
+					{props.left ? <p>[LEFT THE SERVER]</p> : null}
 					<img
 						src={props.head}
 						alt={props.name}

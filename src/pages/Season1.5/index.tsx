@@ -29,7 +29,7 @@ export default function Season1_5() {
 				<p>Table of Contents</p>
 				<a href='#upload-order'>{getTranslation('UploadOrder', lang)}</a>
 				<br />
-				<a href='#meerpup1'>Meerpup1's Video</a>
+				<a href='#meerpup1'>Meerpup1's Videos</a>
 				<br />
 				<a href='#boxyplayz'>BoxyPlayz's Videos</a>
 				<br />
@@ -170,9 +170,15 @@ export default function Season1_5() {
 						<td>BoxyPlayz</td>
 						<td>January 17, 2025</td>
 					</tr>
+
+					<tr>
+						<td><Link href='https://youtu.be/In3n9gUExZg?si=ZDZtcmeNbiR3BR9G'> RustiCraft Season 1.5, Episode 2 – Spawn Build! </Link></td>
+						<td>Meerpup1</td>
+						<td>February 8, 2026</td>
+					</tr>
 				</tbody>
 			</table>
-			<h1 id='meerpup1'>Meerpup1's Video</h1>
+			<h1 id='meerpup1'>Meerpup1's Videos</h1>
 			<table>
 				<thead>
 					<tr>
@@ -189,6 +195,10 @@ export default function Season1_5() {
 							</Link>
 						</td>
 						<td>November 29, 2025</td>
+					</tr>
+					<tr>
+						<td><Link href='https://youtu.be/In3n9gUExZg?si=ZDZtcmeNbiR3BR9G'> RustiCraft Season 1.5, Episode 2 – Spawn Build! </Link></td>
+						<td>February 8, 2026</td>
 					</tr>
 				</tbody>
 			</table>
