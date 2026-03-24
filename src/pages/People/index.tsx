@@ -29,9 +29,9 @@ export default function People() {
 				name='BoxyPlayz'
 				description='Builder of the site! :D'
 				firstSeason={1}
-				latestEpisode='https://youtu.be/KGIM7Ag96Vo?si=VPwhUJZu3iLVhgfa'
+				latestEpisode='https://youtu.be/y40h55FUvOA?si=HMkB3x2ofwFxVIfk'
 				youtubeChannelUrl='https://www.youtube.com/@BoxyPlayz0'
-				latestEpisodeTitle=' The Farm | Guardian Farm Part 3 | Rusticraft Season 1.5 Episode 5'
+				latestEpisodeTitle=' Rusticraft Events 2 '
 				trivia={['Web Designer']}
 				latestSeason={1.5}
 			/>
@@ -79,14 +79,15 @@ export default function People() {
 				latestEpisode='https://www.youtube.com/watch?v=xyONh2jlbgs'
 				latestEpisodeTitle='Home Sweet Home | RustiCraft Ep 1| Minecraft'
 				latestSeason={1.5}
+				left
 			/>
 			<Human
 				head={Random}
 				name='Random'
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@a-random-show'
-				latestEpisode='https://www.youtube.com/watch?v=WPvvAHm4izA'
-				latestEpisodeTitle='RustiCraft SMP ep1: Imprisoning some piligers :D'
+				latestEpisode='https://www.youtube.com/watch?v=-kqwIt-UbTA'
+				latestEpisodeTitle='When you play Minecraft whit that friend'
 				latestSeason={1.5}
 			/>
 			<Human
@@ -141,6 +142,7 @@ export default function People() {
 				name='Mask'
 				firstSeason={1.5}
 				youtubeChannelUrl='https://www.youtube.com/@Maskedmcyt'
+				latestSeason={1.5}
 			/>
 			<Human
 				head={Frankie}

@@ -176,6 +176,19 @@ export default function Season1_5() {
 						<td>Meerpup1</td>
 						<td>February 8, 2026</td>
 					</tr>
+
+
+					<tr>
+						<td><Link href='https://youtu.be/y40h55FUvOA?si=dAGaQQ_CSSGeB91j'> Rusticraft Events 2 </Link></td>
+						<td>BoxyPlayz</td>
+						<td>March 10, 2026</td>
+					</tr>
+
+					<tr>
+						<td><Link href='https://youtu.be/Y9n7_gYrj5U?si=O48HkErI8wVOJKb3'> RustiCraft Season 1.5, Episode 3 – Farms, farms, farms! </Link></td>
+						<td>Meerpup1</td>
+						<td>March 15, 2026</td>
+					</tr>
 				</tbody>
 			</table>
 			<h1 id='meerpup1'>Meerpup1's Videos</h1>
@@ -199,6 +212,10 @@ export default function Season1_5() {
 					<tr>
 						<td><Link href='https://youtu.be/In3n9gUExZg?si=ZDZtcmeNbiR3BR9G'> RustiCraft Season 1.5, Episode 2 – Spawn Build! </Link></td>
 						<td>February 8, 2026</td>
+					</tr>
+					<tr>
+						<td><Link href='https://youtu.be/Y9n7_gYrj5U?si=x6oY_jTw_HrOCmSF'> RustiCraft Season 1.5, Episode 3 – Farms, farms, farms! </Link></td>
+						<td>March 15, 2026</td>
 					</tr>
 				</tbody>
 			</table>
@@ -280,6 +297,14 @@ export default function Season1_5() {
 							</Link>
 						</td>
 						<td>January 17, 2025</td>
+					</tr>
+					<tr>
+						<td>
+							<Link href='https://youtu.be/y40h55FUvOA?si=6g37tpsN7jEiufWt'>
+								Rusticraft Events 2
+							</Link>
+						</td>
+						<td>March 10, 2025</td>
 					</tr>
 				</tbody>
 			</table>
