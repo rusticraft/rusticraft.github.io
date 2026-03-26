@@ -79,7 +79,6 @@ export default function People() {
 				latestEpisode='https://www.youtube.com/watch?v=xyONh2jlbgs'
 				latestEpisodeTitle='Home Sweet Home | RustiCraft Ep 1| Minecraft'
 				latestSeason={1.5}
-				left
 			/>
 			<Human
 				head={Random}
