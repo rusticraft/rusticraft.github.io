@@ -20,13 +20,14 @@ body {
 
 #app {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 main {
 	flex: auto;
 	display: flex;
 	padding: 1vw 1vh;
-	width: 98vw;
 }
 
 @media (prefers-color-scheme: dark) {

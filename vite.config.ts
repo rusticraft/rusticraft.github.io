@@ -14,6 +14,7 @@ export default defineConfig({
 					'/people',
 					'/season1',
 					'/season1.5',
+					"/cinema"
 				],
 				previewMiddlewareEnabled: true,
 				previewMiddlewareFallback: '/404',

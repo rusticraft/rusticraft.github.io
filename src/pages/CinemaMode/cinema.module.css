@@ -1,0 +1,31 @@
+.face {
+	width: 240px;
+	height: 240px;
+	image-rendering: pixelated;
+	display: block;
+}
+
+.profileSpan {
+	width: 240px;
+	display: block;
+}
+
+.centerLabel {
+	width: 240px;
+	text-align: center;
+	display: block;
+}
+
+.face:hover {
+	box-shadow: 10px 5px 5px rgb(0, 221, 255);
+	transform: translateY(-2px);
+	cursor: pointer;
+}
+
+.centerDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 60px;
+}
