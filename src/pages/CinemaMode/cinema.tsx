@@ -41,7 +41,8 @@ export default function Cinema() {
 				backgroundColor: "red",
 				color: "black",
 				height: "8vh",
-				fontSize: "4vh"
+				fontSize: "4vh",
+				cursor: "pointer"
 			}} onClick={() => {
 				dialogRef.current.close();
 			}}>Close</button>
