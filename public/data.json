@@ -4,7 +4,7 @@
 		{
 			"username": "Meerpup1",
 			"imageURL": "/images/heads/meerpup1.png",
-			"color": "indigo",
+			"color": "forestgreen",
 			"seasons": [
 				{
 					"seasonNumber": 0,
@@ -173,6 +173,12 @@
 					]
 				}
 			]
+		},
+		{
+			"username": "Rain",
+			"color": "fuchsia",
+			"imageURL": "/images/heads/rain.png",
+			"seasons": []
 		}
 	]
 }

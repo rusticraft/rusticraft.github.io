@@ -22,7 +22,9 @@ export default function Cinema() {
 		display: "flex",
 		width: "100%",
 		minHeight: "100%",
-		flexDirection: "column"
+		flexDirection: "column",
+		backgroundColor: "#3a3a3a",
+		color: "#c29d62"
 	}}>
 		<dialog ref={dialogRef}>
 			{selectedEpisode ? (
@@ -37,7 +39,9 @@ export default function Cinema() {
 			<button style={{
 				width: "100%",
 				backgroundColor: "red",
-				color: "black"
+				color: "black",
+				height: "8vh",
+				fontSize: "4vh"
 			}} onClick={() => {
 				dialogRef.current.close();
 			}}>Close</button>
@@ -46,7 +50,7 @@ export default function Cinema() {
 		<div className={cssModules.centerDiv}>
 			{cinemaData != undefined && cinemaData.data.map((person, idx) => {
 				return (<span className={cssModules.profileSpan} key={idx}>
-					<a href="javascript:void(0)" onClick={() => loadUser(person)}><img src={person.imageURL} className={cssModules.face} width={240} alt={person.username} /></a>
+					<a href="javascript:void(0)" onClick={() => loadUser(person)}><img src={person.imageURL} className={cssModules.face} width={120} alt={person.username} /></a>
 					<label className={cssModules.centerLabel}>{person.username}</label>
 				</span>);
 			})}
@@ -55,10 +59,9 @@ export default function Cinema() {
 			<h1>You are watching <span style={selectedUser.color ? {
 				color: selectedUser.color
 			} : null}>{selectedUser.username}</span></h1>
-			<br />
 			{selectedUser.seasons.map((season, index) => {
 				return <div key={index}>
-					<h2>Season {season.seasonNumber}</h2>
+					<h2>{season.seasonNumber == 0 ? "Specials" : `Season ${season.seasonNumber}`}</h2>
 					<div className={cssModules.seasonEpisodeMenu}>
 						{season.episodes.map((episode, i) => {
 							return <div style={{
