@@ -16,10 +16,23 @@
 	display: block;
 }
 
+.centerLabelEpisode {
+	width: 640px;
+	text-align: center;
+	display: block;
+}
+
 .face:hover {
-	box-shadow: 10px 5px 5px rgb(0, 221, 255);
-	transform: translateY(-2px);
+	box-shadow: 10px 5px 5px rgb(0, 0, 0);
+	transform: translateY(-4px);
 	cursor: pointer;
+}
+
+.seasonEpisodeMenu {
+	flex-direction: row;
+	display: flex;
+	overflow: scroll;
+	height: 400px;
 }
 
 .centerDiv {
@@ -27,5 +40,6 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	height: 100vh;
 	gap: 60px;
 }

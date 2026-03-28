@@ -1,21 +1,21 @@
-export interface episode {
+export interface Episode {
 	episodeNumber: number;
 	url: string;
 	name: string;
 	id: string;
 }
 
-export interface season {
+export interface Season {
 	seasonNumber: number;
-	episodes: episode[];
+	episodes: Episode[];
 }
 
-export interface person {
+export interface Person {
 	username: string;
 	imageURL: string;
-	seasons: season[];
+	seasons: Season[];
 }
 
-export interface cinemaData {
-	data: person[];
+export interface CinemaData {
+	data: Person[];
 };
