@@ -14,6 +14,7 @@ export interface Person {
 	username: string;
 	imageURL: string;
 	seasons: Season[];
+	color?: string;
 }
 
 export interface CinemaData {

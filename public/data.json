@@ -4,6 +4,7 @@
 		{
 			"username": "Meerpup1",
 			"imageURL": "/images/heads/meerpup1.png",
+			"color": "indigo",
 			"seasons": [
 				{
 					"seasonNumber": 0,
@@ -44,6 +45,7 @@
 		{
 			"username": "BoxyPlayz",
 			"imageURL": "/images/heads/boxyplayz.png",
+			"color": "blue",
 			"seasons": [
 				{
 					"seasonNumber": 1.5,
@@ -97,6 +99,7 @@
 		{
 			"username": "Blizzard",
 			"imageURL": "/images/heads/blizzard.png",
+			"color": "aqua",
 			"seasons": [
 				{
 					"seasonNumber": 1.5,
@@ -114,6 +117,7 @@
 		{
 			"username": "Splitzy",
 			"imageURL": "/images/heads/splitzydfg.png",
+			"color": "aquamarine",
 			"seasons": [
 				{
 					"seasonNumber": 1.5,
@@ -131,6 +135,7 @@
 		{
 			"username": "Random",
 			"imageURL": "/images/heads/random.png",
+			"color": "darkturquoise",
 			"seasons": [
 				{
 					"seasonNumber": 1,
@@ -154,6 +159,7 @@
 		{
 			"username": "Flame",
 			"imageURL": "/images/heads/flame.png",
+			"color": "orange",
 			"seasons": [
 				{
 					"seasonNumber": 1,

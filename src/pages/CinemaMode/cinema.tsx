@@ -1,18 +1,16 @@
 import { useEffect, useRef, useState } from "preact/hooks"
-import type { CinemaData, Person } from "./cinematicTypes"
+import type { CinemaData, Episode, Person } from "./cinematicTypes"
 import cssModules from "./cinema.module.css"
 
 export default function Cinema() {
 	const [cinemaData, setCinemaData] = useState<CinemaData>();
 	const [selectedUser, setSelectedUser] = useState<Person>(null);
+	const [selectedEpisode, setSelectedEpisode] = useState<Episode>(null);
 
-	const userRef = useRef<HTMLDivElement>(null);
+	const dialogRef = useRef<HTMLDialogElement>(null);
 
 	function loadUser(user: Person) {
 		setSelectedUser(user);
-		if (userRef.current) {
-			window.scrollTo(0, userRef.current.scrollTop);
-		}
 	}
 
 	useEffect(() => {
@@ -26,6 +24,25 @@ export default function Cinema() {
 		minHeight: "100%",
 		flexDirection: "column"
 	}}>
+		<dialog ref={dialogRef}>
+			{selectedEpisode ? (
+				<>
+					<h1 style={{
+						textAlign: "center"
+					}}>{selectedEpisode.name}</h1>
+					<iframe width="1080" height="640" src={`https://www.youtube-nocookie.com/embed/${selectedEpisode.id}`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen /><br />
+				</>
+			) : null}
+
+			<button style={{
+				width: "100%",
+				backgroundColor: "red",
+				color: "black"
+			}} onClick={() => {
+				dialogRef.current.close();
+			}}>Close</button>
+		</dialog>
+
 		<div className={cssModules.centerDiv}>
 			{cinemaData != undefined && cinemaData.data.map((person, idx) => {
 				return (<span className={cssModules.profileSpan} key={idx}>
@@ -34,8 +51,10 @@ export default function Cinema() {
 				</span>);
 			})}
 		</div>
-		{selectedUser != null ? <div ref={userRef}>
-			<h1>You are watching {selectedUser.username}</h1>
+		{selectedUser != null ? <div>
+			<h1>You are watching <span style={selectedUser.color ? {
+				color: selectedUser.color
+			} : null}>{selectedUser.username}</span></h1>
 			<br />
 			{selectedUser.seasons.map((season, index) => {
 				return <div key={index}>
@@ -46,7 +65,14 @@ export default function Cinema() {
 								display: "flex",
 								flexDirection: "column"
 							}} key={i}>
-								<img src={`https://i.ytimg.com/vi_webp/${episode.id}/maxresdefault.webp`} alt={episode.name} height={360} />
+								<a href="javascript:void(0)" onClick={() => {
+									if (!dialogRef.current) {
+										console.error("Dialog Ref not set");
+										return;
+									}
+									setSelectedEpisode(episode);
+									dialogRef.current.showModal();
+								}}><img src={`https://i.ytimg.com/vi_webp/${episode.id}/maxresdefault.webp`} className={cssModules.episodeImg} alt={episode.name} height={360} /></a>
 								<label className={cssModules.centerLabelEpisode}>{episode.name}</label>
 							</div>
 						})}

@@ -14,6 +14,9 @@
 					"imageURL": {
 						"type": "string"
 					},
+					"color": {
+						"type": "string"
+					},
 					"seasons": {
 						"type": "array",
 						"items": {
