@@ -118,7 +118,6 @@ export default function People() {
 				firstSeason={1}
 				youtubeChannelUrl='https://www.youtube.com/@DrCheff'
 				latestSeason={1.5}
-				left
 			/>
 			<Human
 				head={Rain}
