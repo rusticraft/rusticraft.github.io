@@ -41,6 +41,12 @@ export default function Header() {
 				<Link href='https://www.youtube.com/watch?v=8lXrZ2UJ4RU'>
 					{getTranslation('JoinServer', lang)}
 				</Link>
+				<Link
+					href='/cinema'
+					class={url == '/cinema' && 'active'}
+					target='_self'>
+					{getTranslation('Cinema', lang)}
+				</Link>
 				<button
 					onClick={() => {
 						if (settingsRef.current) {

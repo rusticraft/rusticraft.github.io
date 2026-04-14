@@ -1,6 +1,6 @@
 export type langs = 'EN' /* | 'RO' */;
 export type Dictionary = Record<langs, Record<keys, string>>;
-export type keys = 'HomeButton' | 'People' | 'Season' | 'UploadOrder' | 'JoinServer';
+export type keys = 'HomeButton' | 'People' | 'Season' | 'UploadOrder' | 'JoinServer' | "Cinema";
 
 export const defaultDictionary: Dictionary = {
 	EN: {
@@ -9,6 +9,7 @@ export const defaultDictionary: Dictionary = {
 		Season: 'Season',
 		UploadOrder: 'Upload Order',
 		JoinServer: 'Join Server Here',
+		Cinema: "Cinema Mode"
 	},
 };
 
