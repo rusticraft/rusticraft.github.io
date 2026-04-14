@@ -16,7 +16,7 @@ export default function Home() {
 				/>
 			</div>
 			<p>The official Website for the Rusticraft SMP</p>
-			<a href="/worlds/RustiCraft_S1_World.zip" download={true} target={"_blank"} rel={"noopener"}>Season 1 World Download</a>
+			<a href="https://drive.google.com/file/d/16BtMkaHFZ1H9DU0qZt9IwHSIfXdtJ4No/view?usp=sharing" target={"_blank"} rel={"noopener"}>Season 1 World Download</a>
 		</div>
 	);
 }
