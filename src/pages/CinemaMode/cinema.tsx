@@ -4,8 +4,9 @@ import cssModules from "./cinema.module.css"
 
 export default function Cinema() {
 	const [cinemaData, setCinemaData] = useState<CinemaData>();
-	const [selectedUser, setSelectedUser] = useState<Person>(null);
-	const [selectedEpisode, setSelectedEpisode] = useState<Episode>(null);
+	const [selectedUser, setSelectedUser] = useState<Person | null>(null);
+	const [selectedEpisode, setSelectedEpisode] = useState<Episode | null>(null);
+	const [useEpisodeNumbers, setUseEpisodeNumbers] = useState<boolean>(false);
 
 	const dialogRef = useRef<HTMLDialogElement>(null);
 
@@ -26,6 +27,12 @@ export default function Cinema() {
 		backgroundColor: "#3a3a3a",
 		color: "#c29d62"
 	}}>
+		<div>
+			<label htmlFor="episodeNumbers">Use Episode Numbers</label>
+			<input id={"episodeNumbers"} type="checkbox" onClick={() => {
+				setUseEpisodeNumbers(!useEpisodeNumbers)
+			}} />
+		</div>
 		<dialog ref={dialogRef}>
 			{selectedEpisode ? (
 				<>
@@ -44,6 +51,7 @@ export default function Cinema() {
 				fontSize: "4vh",
 				cursor: "pointer"
 			}} onClick={() => {
+				if (!dialogRef.current) return;
 				dialogRef.current.close();
 			}}>Close</button>
 		</dialog>
@@ -59,7 +67,7 @@ export default function Cinema() {
 		{selectedUser != null ? <div>
 			<h1>You are watching <span style={selectedUser.color ? {
 				color: selectedUser.color
-			} : null}>{selectedUser.username}</span></h1>
+			} : undefined}>{selectedUser.username}</span></h1>
 			{selectedUser.seasons.map((season, index) => {
 				return <div key={index}>
 					<h2>{season.seasonNumber == 0 ? "Specials" : `Season ${season.seasonNumber}`}</h2>
@@ -77,7 +85,7 @@ export default function Cinema() {
 									setSelectedEpisode(episode);
 									dialogRef.current.showModal();
 								}}><img src={`https://i.ytimg.com/vi_webp/${episode.id}/maxresdefault.webp`} className={cssModules.episodeImg} alt={episode.name} height={360} /></a>
-								<label className={cssModules.centerLabelEpisode}>{episode.name}</label>
+								<label className={cssModules.centerLabelEpisode}>{useEpisodeNumbers ? `Episode ${i + 1}` : episode.name}</label>
 							</div>
 						})}
 					</div>
