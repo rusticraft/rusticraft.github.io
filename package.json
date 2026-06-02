@@ -9,9 +9,9 @@
 		"format": "prettier . --write"
 	},
 	"dependencies": {
-		"preact": "^10.29.1",
-		"preact-iso": "^2.11.1",
-		"preact-render-to-string": "^6.6.7"
+		"preact": "^10.29.2",
+		"preact-iso": "^2.12.0",
+		"preact-render-to-string": "^6.7.0"
 	},
 	"devDependencies": {
 		"@boxyplayz/prettier-config": "^1.0.1",
@@ -20,13 +20,13 @@
 		"@eslint/json": "^0.14.0",
 		"@preact/preset-vite": "^2.10.5",
 		"@trivago/prettier-plugin-sort-imports": "^6.0.2",
-		"eslint": "^10.2.0",
-		"globals": "^17.5.0",
-		"jiti": "^2.6.1",
-		"prettier": "^3.8.2",
+		"eslint": "^10.4.1",
+		"globals": "^17.6.0",
+		"jiti": "^2.7.0",
+		"prettier": "^3.8.3",
 		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.58.2",
-		"vite": "^8.0.8"
+		"typescript-eslint": "^8.60.1",
+		"vite": "^8.0.16"
 	},
 	"eslintConfig": {
 		"extends": "preact"
